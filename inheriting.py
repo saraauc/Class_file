@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from mod_cgrade import Letter_Processor
 import csv
 
@@ -34,3 +35,19 @@ my_obj = MyInheritedOne("students_grades.csv")
 my_obj.add_letter_grades_to_csv("students_grades.csv")
 print(my_obj.get_grade_dist())
 
+=======
+from class_letter_grade import  Letter_Processor
+
+
+#class my_inherited_one(Letter_Processor):
+class my_inherited_one():
+    pass
+
+
+my_obj = my_inherited_one("students_grades.csv")
+
+my_obj.process_grades()
+print(my_obj.get_grade_dist())
+
+
+>>>>>>> 8fcfaa7924fad36f6db91b7ab6c47cb95f5060ad

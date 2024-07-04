@@ -40,9 +40,15 @@ class Letter_Processor:
         return self.grades_dist
 
 if __name__ == '__main__':
+<<<<<<< HEAD:Class_letter grade.py
     file_handling = Letter_Processor("students_grades.csv")
     file_handling.process_grades()
     print(file_handling.get_grade_dist())
+=======
+   file_handling = Letter_Processor("students_grades.csv")
+   file_handling.process_grades()
+   print(file_handling.get_grade_dist())
+>>>>>>> 8fcfaa7924fad36f6db91b7ab6c47cb95f5060ad:class_letter_grade.py
 
 
 
