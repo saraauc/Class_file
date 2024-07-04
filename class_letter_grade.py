@@ -39,9 +39,10 @@ class Letter_Processor:
     def get_grade_dist(self):
         return self.grades_dist
 
-file_handling = Letter_Processor("students_grades.csv")
-file_handling.process_grades()
-print(file_handling.get_grade_dist())
+if __name__ == '__main__':
+   file_handling = Letter_Processor("students_grades.csv")
+   file_handling.process_grades()
+   print(file_handling.get_grade_dist())
 
 
 
